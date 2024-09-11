@@ -8,6 +8,7 @@ function maiorPalavra(texto) {
             maiorTamanho = palavra.length;  
             // volta a atribuir para "apagar" qualquer palavra que tenha sido selecionada anteriormente como sendo a maior
             maioresPalavras = [palavra];  
+            // bastava comparar o comprimento com o da palavra que já está guardado no array e não precisava criar uma variável para guardar o comprimento
         } else if (palavra.length === maiorTamanho) {
             maioresPalavras.push(palavra);
         }
