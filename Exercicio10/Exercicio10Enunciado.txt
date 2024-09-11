@@ -1,0 +1,4 @@
+Exercício 10
+
+Criar uma função que receba como parâmetro uma string e devolva o número de palavras existentes na string.
+Podem resolver o exercício utilizando métodos disponíveis no JavaScript, mas também terão de resolver o exercício sem esses métodos.

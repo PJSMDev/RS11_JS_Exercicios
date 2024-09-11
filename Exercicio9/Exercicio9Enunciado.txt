@@ -1,0 +1,13 @@
+Exercício 9
+
+Criar uma função que permita identificar a maior palavra existente numa frase e o respectivo número de caracteres.
+
+function maiorPalavra(texto) {
+
+para a seguinte invocação,
+
+maiorPalavra("Exemplo de uma frase com palavras");
+
+deve apresentar como resultado
+"palavras" - 8 letras
+Podem utilizar métodos de strings de JavaScript.

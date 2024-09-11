@@ -1,0 +1,12 @@
+Exercício 5
+
+Implementar um algoritmo em JavaScript que permita validar matrículas de automóveis.
+Existem actualmente 4 tipos de matrículas autorizadas:
+AA-00-00
+00-00-AA
+00-AA-00
+AA-00-AA
+O "separador" entre os números e as letras pode ser o hifen,
+AA-00-AA
+ou o espaço:
+AA 00 AA

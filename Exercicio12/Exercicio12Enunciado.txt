@@ -1,0 +1,6 @@
+Exercício 12
+
+Ver o seguinte vídeo até aos 2:31m. Parar o vídeo e resolver o exercício.
+How to: Work at Google — Example Coding/Engineering Interview
+https://www.youtube.com/watch?v=XKu_SEDAykw&t=196s
+Ver depois o vídeo até ao fim e tentar perceber as outras soluções apresentadas.

@@ -1,0 +1,12 @@
+Exercício 11
+
+Remova os números repetidos de um array.
+Por exemplo, partindo do array,
+
+[12,6,3,12,8,6,5] 
+
+o resultado é:
+
+[12,6,3,8,5]
+
+Poderá remover os números repetidos do próprio array ou criar um novo array com os valores não repetidos.

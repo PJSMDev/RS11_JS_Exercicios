@@ -1,0 +1,4 @@
+Exercício 8
+
+Gerar uma chave aleatória do euromilhões (5 números + 2 estrelas) - não podem existir números repetidos!
+Os números podem variar entre 1 e 50, e as estrelas entre 1 e 12.

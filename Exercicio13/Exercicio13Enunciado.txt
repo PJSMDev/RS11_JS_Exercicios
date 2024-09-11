@@ -1,0 +1,8 @@
+Exercício 13
+
+Dado um array com números,
+
+let dados = [90,190,20,240,340,220,470,60,430,460,400];
+
+ordená-los por ordem crescente sem recorrer ao método sort(), utilizando o bubble sorting.
+Ver imagem em anexo para perceber o funcionamento deste algoritmo de ordenação.

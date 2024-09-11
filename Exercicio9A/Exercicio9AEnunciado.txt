@@ -1,0 +1,5 @@
+Exercício 9a
+
+Ver problema de existir mais de uma palavra com o número maior de caracteres.
+Neste caso, o programa deve devolver um array com as palavras.
+Outro exercício possível é remover todos os símbolos da string (.,-, etc.) antes de identificar a maior palavra.

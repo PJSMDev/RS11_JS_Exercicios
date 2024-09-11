@@ -1,0 +1,16 @@
+Exercício 7
+
+Criar uma função que simule o método repeat, isto é, recebe dois parâmetros, numRepeticoes e texto,
+
+function repete(numRepeticoes, texto) {
+
+e retorna o valor da variável "texto" repetido "numRepeticoes" vezes.
+Para a seguinte invocação da função,
+
+repete(3, "Primavera")
+
+o resultado deverá ser:
+
+PrimaveraPrimaveraPrimavera
+
+Testar a função para valores diferentes das variáveis "repetições" e "texto".
