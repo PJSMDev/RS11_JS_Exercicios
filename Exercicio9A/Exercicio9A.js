@@ -5,9 +5,8 @@ function maiorPalavra(texto) {
 
     for (let palavra of palavras) {
         if (palavra.length > maiorTamanho) {
-            // inútil -> restos da versão anterior
             maiorTamanho = palavra.length;  
-            // substitui qualquer palavra que tenha sido selecionada antes
+            // volta a atribuir para "apagar" qualquer palavra que tenha sido selecionada anteriormente como sendo a maior
             maioresPalavras = [palavra];  
         } else if (palavra.length === maiorTamanho) {
             maioresPalavras.push(palavra);
