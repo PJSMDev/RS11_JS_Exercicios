@@ -1,19 +1,23 @@
 function maiorPalavra(texto) {
-    // separa o texto em palavras isoladas
     const palavras = texto.split(" ");
-    let maiorPalavra = "";  // Inicializa com uma string vazia
+    let maiorTamanho = 0;  
+    let maioresPalavras = [];
 
     for (let palavra of palavras) {
-        if (palavra.length > maiorPalavra.length) {
-            maiorPalavra = palavra;
+        if (palavra.length > maiorTamanho) {
+            // inútil -> restos da versão anterior
+            maiorTamanho = palavra.length;  
+            // substitui qualquer palavra que tenha sido selecionada antes
+            maioresPalavras = [palavra];  
+        } else if (palavra.length === maiorTamanho) {
+            maioresPalavras.push(palavra);
         }
     }
 
-    // precisa do '`' -> procurar nos apontamentos
-    return `${maiorPalavra} - ${maiorPalavra.length} letras`;
+    return maioresPalavras;  
 }
 
-console.log(maiorPalavra("Exemplo de uma frase com palavras")); // palavras - 8 letras
-console.log(maiorPalavra("Teste 1"));   // Teste - 5 letras
-console.log(maiorPalavra(""));  // - 0 letras
-console.log(maiorPalavra("Exemplo de uma frase Exemplo com palavras Exemplo Exemplo")); 
+console.log(maiorPalavra("Exemplo palavras de uma frase palavras com palavras")); // ["palavras, palavras, palavras"]
+console.log(maiorPalavra("Teste 1"));   // ["Teste"]
+console.log(maiorPalavra("Teste Testes"));  // ["Testes"]
+console.log(maiorPalavra(""));  // [""]
