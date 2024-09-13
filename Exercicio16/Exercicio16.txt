@@ -1,0 +1,8 @@
+Exercício 16
+
+Sem recorrer ao método toUpperCase() converta uma string para maiúsculas. 
+Crie uma função, convertToUpperCase() , que efectue esta operação.
+Exemplo, fornecendo a seguinte variável,
+let convertedString = convertUpperCase("Pedro Remoaldo");
+o resultado deve ser:
+PEDRO REMOALDO
