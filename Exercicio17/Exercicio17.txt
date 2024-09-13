@@ -1,0 +1,4 @@
+Exercício 17
+
+Sem utilizar expressões regulares, valide o conteúdo de uma string (defina uma função que retorne true/false) de forma a permitir apenas letras maiúsculas, letras minúsculas e espaços.
+Repita o exercício utilizando expressões regulares.
