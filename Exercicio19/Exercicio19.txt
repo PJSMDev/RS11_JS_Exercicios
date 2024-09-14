@@ -1,0 +1,21 @@
+Exercício 19
+
+Crie o jogo do enforcado.
+Deverá existir uma lista de palavras a utilizar no jogo. Cada palavra tem de ter cinco ou mais letras, com um limite de 12 letras.
+No início do jogo, deverá ser escolhida, aleatoriamente, uma palavra da lista.
+Deverá ser mostrado ao utilizador, na consola, o número de letras que compõem a palavra. Por exemplo, para a palavra “Teste”.
+_ _ _ _ _
+O utilizador submete uma letra utilizando o seguinte comando:
+let letra=prompt("Introduza uma letra:");
+Se tiver acertado numa das letras da palavra, deverá aparecer a respectiva letra – por exemplo, se o utilizador submeter a letra “T”, deverá aparecer:
+T _ _ t _
+Como pode verificar, a letra tanto pode ser maiúscula, como minúscula.
+Caso não exista nenhuma letra igual na palavra, deverá contar como uma tentativa falhada – deverá ser mostrada uma mensagem ao utilizador com a mensagem “A letra não existe na palavra”. Utilize o comando alert() para mostrar a mensagem.
+Tem de aparecer, na consola, o número de tentativas falhadas que o utilizador ainda dispõe.
+Dependendo do número de letras da palavra, o utilizador tem x tentativas falhadas até que o jogo termine:
+5 letras – 5 tentativas falhadas
+6 a 7  letras – 4 tentativas falhadas
+Mais de 8 – 3 tentativas falhadas
+Caso o utilizador tenha esgotado o número de tentativas falhadas, deverá aparecer a mensagem “Jogo terminado. Não acertou na palavra.”.
+Caso tenha acertado na palavra, deverá aparecer a mensagem “Parabéns. Acertou na palavra.”.
+Utilize o comando alert() para mostrar estas mensagens.
