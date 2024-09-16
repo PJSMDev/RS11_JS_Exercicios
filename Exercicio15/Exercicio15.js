@@ -20,6 +20,7 @@ let pessoasTeste01 = [
 let pessoasTeste02 = [];
 
 function localidadesPessoas(pessoas) {
+    // Set só permite valores únicos
     let localidadesUnicas = new Set(pessoas.map(pessoa => pessoa.localidade));
 
     return [...localidadesUnicas].sort();
