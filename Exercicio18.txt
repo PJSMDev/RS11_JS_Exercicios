@@ -1,5 +1,0 @@
-Exercício 18
-
-No exercício de temperaturas, calcular a mediana, que representa o valor central de um conjunto de dados.
-Para encontrar o valor da mediana é necessário colocar os valores em ordem crescente ou decrescente.
-Quando o número de elementos de um conjunto é par, a mediana é encontrada pela média dos dois valores centrais. Assim, esses valores são somados e divididos por dois.
