@@ -1,0 +1,4 @@
+Exercício 20
+Criar um widget/componente do tipo "collapsible" - ver página https://getbootstrap.com/docs/5.3/components/collapse/.
+Aparece um botão com o texto "Mostrar". Quando se clica no botão, aparece uma secção com texto abaixo do botão e o texto do botão muda para "Esconder".
+Clicando outra vez no botão, a secção de texto desaparece e o botão passa a ter outra vez o texto "Mostrar".
