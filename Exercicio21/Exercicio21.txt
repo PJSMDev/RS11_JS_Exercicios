@@ -1,0 +1,3 @@
+Exercício 21
+Criar uma estrutura do tipo Tabs (ver imagem em anexo).
+Quando se clica num dos títulos, deve mudar o conteúdo que é apresentado.
