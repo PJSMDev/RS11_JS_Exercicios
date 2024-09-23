@@ -1,0 +1,4 @@
+Exercício 22
+Criar uma image gallery.
+Mostrar as imagens em anexo em tamanho reduzido. Deverão aparecer com opacidade de 50% e, quando se passa o rato por cima, a opacidade deverá ser a normal. Ver imagem em anexo em que o koala corresponde à imagem que tem o cursor por cima.
+Quando se clica numa das imagens, essa imagem deverá aparecer numa modal em tamanho grande. A modal tem, na parte de baixo, a identificação da imagem e um X no canto superior direito que permite fechar a modal. Clicando fora da modal também fecha a modal.
