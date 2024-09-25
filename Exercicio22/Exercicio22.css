@@ -1,0 +1,42 @@
+.galeriaImagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fotografias {
+    width: 150px;
+    height: 150px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.fotografias:hover {
+    opacity: 100%;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagemModal {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#fechar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
